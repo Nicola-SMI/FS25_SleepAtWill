@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+	<author>SMI Modding Team</author>
+	<version>1.0.0.0</version>
+
+	<title>
+		<en>Sleep At Will</en>
+		<de>Schlafen Nach Belieben</de>
+	</title>
+
+	<description>
+<en><![CDATA[Allows the player to sleep on foot anywhere.
+Hotkeys: Left Shift + Z to Sleep.]]></en>
+<it><![CDATA[Permette al giocatore di dormire ovunque in piedi.
+Combinazione tasti: Left Shift + Z per dormire.]]></it>
+<de><![CDATA[Ermöglicht es dem Spieler, überall zu Fuß zu schlafen.
+Linke Umschalttaste + Z zum Schlafen.]]></de>
+<fr><![CDATA[Permet au joueur de dormir à pied n'importe où.
+Majuscule gauche + Z pour mettre en veille.]]></fr>
+	</description>
+
+	<iconFilename>icon_SleepAtWill.dds</iconFilename>
+	<multiplayer supported="true" />
+	
+	<extraSourceFiles>
+		 <sourceFile filename="SleepAnywhere.lua" />
+	</extraSourceFiles>
+
+	<l10n>
+		<text name="SLEEP_ANYWHERE">
+			<en>Left Shift + Z to Sleep.</en>
+			<it>Shift sinistro + Z per dormire.</it>
+			<de>Linke Umschalttaste + Z zum Schlafen.</de>
+			<fr>Majuscule gauche + Z pour mettre en veille.</fr>
+		</text>
+	</l10n>
+	
+</modDesc>
